@@ -67,7 +67,6 @@ int main () {
 	}
 	cout << "Normal Program Exit!\n";
 
-
 	return 0;
 }
 
@@ -125,7 +124,6 @@ void OldAgeSorter (Bunny *rabbit, int &count) {
 					count--;
 				}
 			}
-			
 		}
 	}
 }
@@ -156,8 +154,6 @@ void BreedingRabbits(Bunny *rabbit, int &count) {
 			MakeRabbit(rabbit, count);
 		}
 	}
-	
-
 }
 
 //Corrupts a nuymber of bunnies based on number of mutants present
